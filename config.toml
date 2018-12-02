@@ -1,0 +1,69 @@
+theme = "ananke"
+DefaultContentLanguage = "cn"
+pluralizeListTitles = false
+
+MetaDataFormat = "yaml"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "K2 Gallery Cafe Bar"
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  featured_image = "/images/coffee1.jpg"
+  background_color_class = "bg-black"
+
+
+[languages]
+  [languages.en]
+    baseURL="http://k2gallery.com"
+    languageName = "English"
+    title = "K2 Gallery Cafe"
+    weight = 2
+  [[languages.en.menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 2
+  [languages.cn]
+    baseURL="http://k2gallery.com"
+    languageName = "Chinese"
+    title = "K2 咖啡画廊"
+    name = "首页"
+    weight = 1
+  [[languages.cn.menu.main]]
+    name = "联系方式"
+    title = "联系方式"
+    weight = 1
+    identifier = "contact"
+    url = "/contact"
+  [[languages.cn.menu.main]]
+    name = "白头咖啡吧"
+    title = "白头咖啡吧"
+    weight = 1
+    identifier = "cafe"
+    url = "/cafe"
+  [[languages.cn.menu.main]]
+    name = "展品室"
+    title = "展品室"
+    weight = 1
+    identifier = "showroom"
+    url = "/showroom"
+  [[languages.cn.menu.main]]
+    name = "关于我们"
+    title = "关于我们"
+    identifier = "about"
+    weight = 1
+    url = "/about"

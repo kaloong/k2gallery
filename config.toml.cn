@@ -1,0 +1,51 @@
+theme = "ananke"
+DefaultContentLanguage = "cn"
+pluralizeListTitles = false
+
+[languages]
+  [languages.en]
+    baseURL="http://k2gallery.com"
+    languageName = "English"
+    title = "K2 Gallery"
+    contentDir = "content/en"
+    weight = 2
+  [[languages.en.menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 0
+  [languages.cn]
+    baseURL="http://k2gallery.com"
+    languageName = "Chinese"
+    title = "亚二画廊"
+    contentDir = "content/cn/"
+    weight = 1
+  [[languages.cn.menu.main]]
+    name = "首页"
+    title = "首页"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[languages.cn.menu.main]]
+    name = "咖啡吧"
+    title = "咖啡吧"
+    weight = 100
+    identifier = "cafe"
+    url = "cafe"
+  [[languages.cn.menu.main]]
+    name = "展品室"
+    title = "展品室"
+    weight = 100
+    identifier = "showroom"
+    url = "showroom"
+  [[languages.cn.menu.main]]
+    name = "关于我们"
+    title = "关于我们"
+    identifier = "about us"
+    weight = 200
+    url = "aboutus"
+  [[languages.cn.menu.main]]
+    name = "企业文化"
+    title = "企业文化"
+    identifier = "Culture"
+    weight = 300
+    url = "culture"
