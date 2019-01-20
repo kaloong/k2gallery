@@ -26,7 +26,6 @@ enableRobotsTXT = true
   featured_image = "/images/coffee1.jpg"
   background_color_class = "bg-black"
 
-
 [languages]
   [languages.en]
     baseURL="http://k2gallery.com"
@@ -40,7 +39,7 @@ enableRobotsTXT = true
   [languages.cn]
     baseURL="http://k2gallery.com"
     languageName = "Chinese"
-    title = "K2 咖啡画廊"
+    title = "K2 画廊咖啡吧"
     name = "首页"
     weight = 1
   [[languages.cn.menu.main]]

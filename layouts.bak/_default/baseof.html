@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Doc</title>
+	</head>
+	<body>
+		Top of baseof
+		{{ block "header" . }}
+		   This is the default header
+		{{ end }}
+		{{ block "main" . }}
+
+		{{ end }}
+		{{ block "footer" . }}
+		   This is the default footer
+		{{ end }}
+		Bottom of baseof
+	</body>
+</html>
